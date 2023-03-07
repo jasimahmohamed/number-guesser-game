@@ -32,9 +32,6 @@ guessBtn.addEventListener('click', function () {
     guessInput.style.borderColor = 'red'
     guessInput.value = ''
     setMessage(`${guess} is not correct, ${guessesLeft} guesses left`, 'red')
-  } else if (guessesLeft === 0) {
-    gameOver(false, `Game over :( The winning number was ${winningNum}
-      `)
   } else {
     gameOver(true, `${winningNum} is correct, you win!`)
   }
