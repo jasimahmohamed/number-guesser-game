@@ -1,5 +1,6 @@
 # number-guesser-game
 Guess the random number in three tries or less.
+<br>
 Developed alongside tutorial from Brad Traversy's Modern Javascript From The Beginning course on Udemy.
 <br>
 A couple things were buggy in the tutorial so I fixed them up:
